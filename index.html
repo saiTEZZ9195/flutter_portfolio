@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/flutter_portfolio/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Portfolio">
+  <title>Venigalla Sai Teja | Portfolio</title>
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: "168715752" /* Flutter's service worker is deprecated and will be removed in a future Flutter release. */,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
